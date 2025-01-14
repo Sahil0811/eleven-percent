@@ -98,7 +98,7 @@ public class ElevenPercentApplicationContext : ApplicationContext
 
     private static Icon IconFromText(string str)
     {
-        Font fontToUse = new Font("Microsoft Sans Serif", 12, FontStyle.Bold, GraphicsUnit.Pixel);
+        Font fontToUse = new Font("Microsoft Sans Serif", 10, FontStyle.Bold, GraphicsUnit.Pixel);
         Brush brushToUse = new SolidBrush(Color.Black);
         Bitmap bitmapText = new Bitmap(16, 16);
         Graphics g = Graphics.FromImage(bitmapText);
