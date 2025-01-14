@@ -10,3 +10,4 @@ Show the battery percentage in the system tray in an attempt to improve the Wind
 
 ![image](https://user-images.githubusercontent.com/6062228/224476948-07fa4205-d659-4c4f-97ca-ca2dc5b29340.png)
 
+Font STyle and Font Size is changed
