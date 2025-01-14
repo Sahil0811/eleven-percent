@@ -1,4 +1,4 @@
-﻿﻿﻿﻿namespace eleven_percent;
+﻿﻿namespace eleven_percent;
 
 using Timer = System.Windows.Forms.Timer;
 public class ElevenPercentApplicationContext : ApplicationContext
@@ -121,10 +121,7 @@ public class ElevenPercentApplicationContext : ApplicationContext
             xOffset = 4;
         }
         
-        StringFormat stringFormat = new StringFormat();
-stringFormat.Alignment = StringAlignment.Center;
-stringFormat.LineAlignment = StringAlignment.Center;
-g.DrawString(str, fontToUse, brushToUse, new RectangleF(0, 0, 24, 24), stringFormat);
+        g.DrawString(str, fontToUse, brushToUse, xOffset, 0);
         hIcon = (bitmapText.GetHicon());
         Icon fromHandle = Icon.FromHandle(hIcon);
         return fromHandle;
