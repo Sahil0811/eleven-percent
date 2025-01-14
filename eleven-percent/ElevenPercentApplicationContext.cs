@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿namespace eleven_percent;
+﻿﻿namespace eleven_percent;
 
 using Timer = System.Windows.Forms.Timer;
 public class ElevenPercentApplicationContext : ApplicationContext
@@ -100,7 +100,7 @@ public class ElevenPercentApplicationContext : ApplicationContext
     {
         Font fontToUse = new Font("Microsoft Sans Serif", 22, FontStyle.Regular, GraphicsUnit.Pixel);
         Brush brushToUse = new SolidBrush(Color.Black);
-        Bitmap bitmapText = new Bitmap(24, 24);
+        Bitmap bitmapText = new Bitmap(32, 24);
         Graphics g = Graphics.FromImage(bitmapText);
 
         nint hIcon;
